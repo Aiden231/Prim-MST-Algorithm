@@ -1,2 +1,2 @@
 # Prim MST Algorithm
-![](./reuslt.png)
+![](./result.png)
