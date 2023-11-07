@@ -27,6 +27,7 @@ int get_min_vertex(int n) {
 	return (v);
 }
 
+// prim MST
 void prim(GraphType* g,int s) {
 	int i, u, v;
 
