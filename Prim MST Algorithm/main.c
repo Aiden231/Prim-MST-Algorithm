@@ -6,6 +6,7 @@
 #define MAX_VERRICES 10
 #define INF 1000L
 
+// 구조체 정의
 typedef struct GraphType {
 	int n;
 	int weight[MAX_VERRICES][MAX_VERRICES];
@@ -27,6 +28,7 @@ int get_min_vertex(int n) {
 	return (v);
 }
 
+// Prim MST Algorithm
 void prim(GraphType* g,int s) {
 	int i, u, v;
 
